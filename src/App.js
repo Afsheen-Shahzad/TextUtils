@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/NavBar';
 import TextForm from './components/TextForm';
 import propTypes from 'prop-types';
-import About from './components/About';
+//import About from './components/About';
 import { useState } from 'react';
 import Alert from './components/Alert';
 
@@ -54,7 +54,6 @@ function App() {
       <Alert alert={alert}/>
       <div className="container">
           <TextForm showAlert={showAlert} text="Enter text to analyze" mode={mode}/>
-          <About />
       </div>
       </>
   );
